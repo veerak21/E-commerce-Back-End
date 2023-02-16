@@ -9,7 +9,7 @@
  This application runs through Node.js. It needs MySQL2 and sequelize packages to connect the Express.js API to a MySQL database. These are installed using `npm i mysql2` and `npm i sequelize` commands. The dotenv package is employed to use environment variables and to store sensitive data, scuh as the MySQL username, password, and database name. It is installed using `npm i dotenv` command.
 
  ## Usage:
-   The application can be invoked by following the `mysql -u root -p` command at the project root and the password is entered when prompted. On the mysql prompt, a `source schema.sql` command is used to create a database and `quit` command is used to exit the mysql prompt. After creating the models and routes, `npm run seed` is run to seed data to the database. The server is started using either `node server.js` or `npm start` commands. The insomnia core is opened to test API GET, POST, PUT, and DELETE routes, which request to display models' data in JSON format, create, update, and delete data in the database, respectively.
+   The application can be invoked by following the `mysql -u root -p` command at the project root and entering the password when prompted. On the mysql prompt, a `source schema.sql` command is used to create a database and `quit` command is used to exit the mysql prompt. After creating the models(categories, products and tags) and routes, `npm run seed` is run to seed data to the database. The server is started using either `node server.js` or `npm start` commands. The insomnia core is opened to test API GET, POST, PUT, and DELETE routes, which request to display models' data in JSON format, create, update, and delete data in the database, respectively.
 
    Follow the walkthrough videos for its potential applications. 
    
@@ -20,14 +20,14 @@
 
 
 
-   ### Walkthrough Video 2: Routing the categories: 
+   ### Walkthrough Video 2: Routing the categories. 
    
    
    https://drive.google.com/file/d/1Ook9TD-Udmd8tH7fudNl9H7_h5QRr0wF/view?usp=share_link
 
 
 
-   ### Walkthrough Video 3: Routing the products and tags: 
+   ### Walkthrough Video 3: Routing the products and tags. 
    
    
    https://drive.google.com/file/d/18Ec_MBjGhJDUirJmbTEZfHehPt1I0VKJ/view?usp=share_link
